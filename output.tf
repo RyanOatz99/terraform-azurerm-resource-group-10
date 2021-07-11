@@ -10,3 +10,7 @@ output "resource_group_location" {
 output "resource_group_tags" {
   value = azurerm_resource_group.main.tags
 }
+
+output "id" {
+  value = azurerm_resource_group.main.id
+}
