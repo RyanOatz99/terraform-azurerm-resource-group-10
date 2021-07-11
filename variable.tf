@@ -1,5 +1,5 @@
 variable "location" {}
-variable "resource_group_name" {}
+variable "name" {}
 variable "tags" {
   type = map
 }
