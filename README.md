@@ -31,7 +31,7 @@ output resource_group_tags {
   value = module.rg.resource_group_tags
 }
 
-output "resource_group_id" {
-  value = azurerm_resource_group.main.id
+output resource_group_id {
+  value = module.rg.resource_group_id
 }
 ```
