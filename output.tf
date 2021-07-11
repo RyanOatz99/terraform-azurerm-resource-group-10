@@ -11,6 +11,6 @@ output "resource_group_tags" {
   value = azurerm_resource_group.main.tags
 }
 
-output "id" {
+output "resource_group_id" {
   value = azurerm_resource_group.main.id
 }
