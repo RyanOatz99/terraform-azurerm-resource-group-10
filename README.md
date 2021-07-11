@@ -30,4 +30,8 @@ output resource_group_location {
 output resource_group_tags {
   value = module.rg.resource_group_tags
 }
+
+output "resource_group_id" {
+  value = azurerm_resource_group.main.id
+}
 ```
