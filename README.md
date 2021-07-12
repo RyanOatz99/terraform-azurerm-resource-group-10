@@ -2,6 +2,11 @@
 
 ##  This module creates azure resource group
 ```
+provider "azurerm" {
+  features {}
+}
+
+
 module "rg" {
   source   = "farrukh90/resource-group/azurerm"
   name     = "dev"
