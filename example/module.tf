@@ -11,15 +11,15 @@ module "rg" {
 }
 
 
-output resource_group_name {
-  value = module.rg.resource_group_name
+output name {
+  value = module.rg.name
 }
 
 
-output resource_group_location {
-  value = module.rg.resource_group_location
+output location {
+  value = module.rg.location
 }
 
-output resource_group_tags {
-  value = module.rg.resource_group_tags
+output tags {
+  value = module.rg.tags
 }
